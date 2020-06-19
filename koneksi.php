@@ -2,7 +2,7 @@
 $host     = "localhost";
 $username = "root";
 $password = "";
-$database = "daily_activity";
+$database = "daily_activityPHP";
 
 $koneksi = new mysqli($host, $username, $password, $database);
 if($koneksi->connect_error)
